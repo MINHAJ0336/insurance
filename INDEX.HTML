@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Carz Limited - Insurance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background: #ffffff;
+            color: #333;
+        }
+        .navbar {
+            background: #f8f9fa;
+        }
+        .hero-section {
+            background: url('hero-bg.jpg') center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            position: relative;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .btn-primary {
+            background: #0056b3;
+            border: none;
+        }
+        .insurance-box {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background: #f8f9fa;
+            transition: 0.3s;
+        }
+        .insurance-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .footer-icons {
+            font-size: 24px;
+            margin: 10px;
+            color: #333;
+        }
+        .extra-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 40px auto;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Safe Carz Limited" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="insurance-plans.html">Insurance Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Secure Your Vehicle with Safe Carz</h1>
+            <p>Reliable & Affordable Insurance Plans</p>
+            <a href="insurance-plans.html" class="btn btn-primary">Explore Plans</a>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Choose Your Insurance Plan</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="insurance-box text-center">
+                    <h4>By Insurance Company</h4>
+                    <p>Find plans from top providers</p>
+                    <a href="insurance-plans.html" class="btn btn-primary btn-sm">View Plans</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="insurance-box text-center">
+                    <h4>By Vehicle Type</h4>
+                    <p>Plans for cars, bikes & more</p>
+                    <a href="insurance-plans.html" class="btn btn-primary btn-sm">View Plans</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="insurance-box text-center">
+                    <h4>Get a Quote</h4>
+                    <p>Find the best rates instantly</p>
+                    <a href="contact.html" class="btn btn-primary btn-sm">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Extra Image Below "View Plans" Section -->
+    <div class="container text-center">
+        <img src="./Screenshot 2025-03-19 161436.png" alt="Insurance Offer" class="extra-image">
+    </div>
+
+    <footer class="bg-light text-center py-4">
+        <p>© 2025 Safe Carz Limited. All Rights Reserved to MALHIA | ZOHA | JAWERIA | DURESHAHWAR.</p>
+        <div>
+            <i class="fab fa-facebook footer-icons"></i>
+            <i class="fab fa-twitter footer-icons"></i>
+            <i class="fab fa-instagram footer-icons"></i>
+            <i class="fab fa-linkedin footer-icons"></i>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
